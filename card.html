@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shri chayadevi college of education Mysore , Rajendranagar-57007</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color:#F6CDC7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 350px;
+            padding: 20px;
+            background-Color: #FFF8DC;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-family: 'Arial Rounded MT';
+            color: #593C39;
+            position: relative;
+            border: 10px solid transparent;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230927/pngtree-blue-simple-illustration-science-and-research-stationery-a4-page-border-image_13369034.jpg');
+            background-video: url('https://cdn.pixabay.com/video/2019/09/19/27019-361107952_large.mp4');
+
+        border: 5px solid #3944BC;
+            animation: bounce 3s infinite;
+            overflow: hidden;
+        }
+
+        /* Background Video */
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Animation Effect */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        h1, h2, p, ol {
+            position: relative;
+            z-index: 1;
+        }
+
+
+
+
+        .decorations {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .decorations .dots {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color:#EAF8BF;
+            border-radius: 50%;
+        }
+
+        .dots:nth-child(1) { top: 10px; left: 30px; }
+        .dots:nth-child(2) { top: 50px; left: 80px; }
+        .dots:nth-child(3) { top: 150px; left: 200px; }
+
+       
+        .card h1 {
+            font-size:35px;
+            color: #;
+            margin-bottom: 10px;
+            font-family: Arial Black;
+            font-weight:  Bold;
+            font-size: 18px;
+            color:#4a3728;
+            margin-bottom: 10px;
+        } .card h2 {
+            font-size:30px;
+            color: #A0522D;
+            margin-bottom: 10px;
+            font-family: Arial Black;
+            font-weight:  Bold;
+            font-size: 18px;
+            color:#4a3728;
+            margin-bottom: 10px;
+        }
+
+        .illustration {
+            margin-top: 20px;
+        }
+
+        .illustration img {
+            width: 100px;
+        }
+
+        .footer {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #3944BC;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="card">
+        <!-- Background Video -->
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h1> Shri chayadevi college of education, Rajendranagar Mysore-57007 </h1>
+        <h2>WELCOME TO SCIENCE WEEK</h2><br/>
+        <p>We are conducting Scientific self song composition Competion</p>
+        <p>Rules & Regulations to be followed:<br/>
+        <ol> 
+        <li>Duration: 4+1 min  </li>
+        <li>Song should be composed by their own</li>
+        <li>Participants are not allowed to use Film song's tunes or music etc..</li>
+        <li>Song should include scientific concepts and themes</li></ol>
+        <p> HOPE YOU ALL ENJOY THIS WEEK </p>
+        <p> <bold> Venue :</bold> SCVT AUDITORIUM </p>
+        <P><strong> Date : </strong> 27/02/2025 </P>
+
+        <div class="illustration">
+            <img src="https://i.pinimg.com/736x/69/c1/0a/69c10a2cf3dc2acdde0c628b210f4fcb.jpg">
+        </div>
+
+        <div class="footer">See you there!</div>
+
+        <div class="decorations">
+            <div class="dots"></div>
+            <div class="dots"></div>
+            <div class="dots"></div>
+        </div>
+    </div>
+
+</body>
+</html>
